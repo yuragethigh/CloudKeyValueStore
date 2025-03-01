@@ -68,7 +68,7 @@ final class CloudKeyValueStoreService: CloudKeyValueStoring {
     }
 }
 
-//MARK: - Mock logger only for u 
+//MARK: - Mock logger
 
 protocol LoggerProtocol {
    func log(object: Any, _ message: String)
